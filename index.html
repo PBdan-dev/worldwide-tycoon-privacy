@@ -19,7 +19,7 @@
 <body>
 <main>
 <h1>Worldwide Tycoon – Privacy Policy</h1>
-<p class="meta">Developer: SkyMarket Games · App ID: com.skymarketgames.worldwidetycoon · Last updated: 30 October 2026 (v4)</p>
+<p class="meta">Developer: SkyMarket Games · App ID: com.skymarketgames.worldwidetycoon · Last updated: 8 November 2026 (v5: iOS version)</p>
 <nav><a href="#en">English</a><a href="#fr">Français</a><a href="#delete">Delete your data</a><a href="#supprimer">Supprimer vos données</a></nav>
 
 <section id="en">
@@ -31,32 +31,34 @@
 <h3>2. Summary</h3>
 <ul>
   <li>No account, no login, no in-app purchase.</li>
-  <li>Your game progress is saved on your device and, if you use it, in your Google Play Games account (cloud save).</li>
+  <li>Your game progress is saved on your device. On Android, if you use it, a copy is also kept in your Google Play Games account (cloud save). The iOS version has no cloud save.</li>
   <li>We do not collect your name, email address, phone number, contacts, photos or precise location.</li>
-  <li>The Game uses GameAnalytics and Google Analytics for Firebase for anonymous usage statistics, and Google services for crash reports, cloud save and advertising (from version 1.8). These services may process device identifiers as described below.</li>
-  <li>Statistics never use your Advertising ID. Only Google AdMob uses it, to show ads.</li>
+  <li>The Game uses GameAnalytics and Google Analytics for Firebase for anonymous usage statistics, Google services for cloud save (Android) and advertising (from version 1.8), and Google (Android) or Apple (iOS) for crash reports. These services may process device identifiers as described below.</li>
+  <li>Statistics never use your Advertising ID (Android) or IDFA (iOS). Only Google AdMob may use it, to show ads, and on iOS only if you allow tracking.</li>
 </ul>
 
 <h3>3. Data stored on your device</h3>
-<p>Your game progress and settings (language, sound) are saved in local files on your device. They are not sent to us. Uninstalling the Game or clearing its data deletes them. If you use cloud save, a copy of your progress is also stored in your Google Play Games account (Google Drive app data, not visible to us); you can delete it from your Google account.</p>
+<p>Your game progress and settings (language, sound) are saved in local files on your device. They are not sent to us. Uninstalling the Game or clearing its data deletes them. If you use cloud save, a copy of your progress is also stored in your Google Play Games account (Google Drive app data, not visible to us); you can delete it from your Google account. On iOS there is no cloud save: deleting the Game deletes your progress.</p>
 
 <h3>4. Data processed by third-party services</h3>
 <div class="wrap"><table>
   <tr><th>Service</th><th>Purpose</th><th>Data</th></tr>
   <tr><td>GameAnalytics (GameAnalytics ApS, Denmark)</td><td>Understand how the Game is played to improve balance and fix problems</td><td>Random game identifier, device model and operating system, sessions, game progress, ads watched</td></tr>
   <tr><td>Google Analytics for Firebase (Google LLC / Google Ireland Ltd) – from version 1.7</td><td>Understand how the Game is played (retention, progression, features used, where players stop) to improve it</td><td>Random game identifier and app instance ID, device model, operating system and language, app version, approximate location (country/region, derived from the IP address, which is not stored), sessions and play time, in-game actions (screens opened, purchases with in-game money, events, bankruptcies), ads watched (where in the Game, how long the ad stayed on screen, whether it was watched to the end or clicked, the revenue estimated by AdMob)</td></tr>
-  <tr><td>Google Play Games Services</td><td>Cloud save of your progress (optional)</td><td>Your Play Games profile identifier and your saved game</td></tr>
-  <tr><td>Google Play Console (Android vitals)</td><td>Crash and freeze reports</td><td>Device model, OS version, technical crash data</td></tr>
-  <tr><td>Google AdMob and User Messaging Platform (Google LLC / Google Ireland Ltd) – from version 1.8</td><td>Showing ads (optional rewarded ads and an occasional full-screen ad), measuring them, and asking for your consent where required by law</td><td>Advertising ID, IP address, device information, ad interactions, consent choice</td></tr>
+  <tr><td>Google Play Games Services (Android only)</td><td>Cloud save of your progress (optional)</td><td>Your Play Games profile identifier and your saved game</td></tr>
+  <tr><td>Google Play Console (Android vitals)</td><td>Crash and freeze reports (Android)</td><td>Device model, OS version, technical crash data</td></tr>
+  <tr><td>Apple App Store Connect and TestFlight</td><td>Crash reports and beta feedback (iOS), only if you share analytics with app developers in your iPhone settings or send feedback from TestFlight</td><td>Device model, iOS version, technical crash data, feedback you choose to send</td></tr>
+  <tr><td>Google AdMob and User Messaging Platform (Google LLC / Google Ireland Ltd) – from version 1.8</td><td>Showing ads (optional rewarded ads and an occasional full-screen ad), measuring them, and asking for your consent where required by law</td><td>Advertising ID (Android) or IDFA (iOS, only if you allow tracking), IP address, device information, ad interactions, consent choice</td></tr>
 </table></div>
 <p>GameAnalytics acts under its own terms: <a href="https://gameanalytics.com/privacy">GameAnalytics Privacy Policy</a>. For Firebase, see <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>; Google may process this data outside the European Union under the European Commission's Standard Contractual Clauses. Google Play and AdMob are provided by Google LLC / Google Ireland Ltd: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a>.</p>
 
 <h3>5. Advertising and consent</h3>
 <p>From version 1.8, the Game shows two kinds of ads. Rewarded ads are optional: you choose to watch one in exchange for an in-game bonus (new candidates, offline earnings, end of a strike, cancelling a tax, placements). A full-screen ad may also appear after the end-of-year tax notice, at most once every 9 minutes of play, and can be closed after a few seconds. If you are in the European Economic Area, the United Kingdom or Switzerland, a consent screen (Google User Messaging Platform) asks whether you accept personalised ads. You can refuse: you will then see non-personalised ads only. You can change your choice at any time from the Game's settings menu ("Ad privacy"). You can also reset or delete your Advertising ID in your Android settings.</p>
+<p><strong>On iOS</strong>, the Game uses your device's advertising identifier (IDFA) only if you allow it in Apple's App Tracking Transparency prompt. If you do not allow it, or if no prompt is shown, the IDFA is not used: you may still see ads, but they are not personalised with it. Apple's SKAdNetwork may measure ad results without identifying you. You can change this at any time in iPhone Settings → Privacy &amp; Security → Tracking.</p>
 
 <h3>6. Legal bases and consent for statistics (EEA / UK)</h3>
 <ul>
-  <li>Usage statistics (GameAnalytics and Google Analytics for Firebase): your consent. If you are in the European Economic Area or the United Kingdom, the Game asks for it after the tutorial, and nothing is sent before you answer "Yes". You can change your choice at any time from the Game's settings menu ("Anonymous statistics"); refusing deletes statistics waiting on your device.</li>
+  <li>Usage statistics (GameAnalytics and Google Analytics for Firebase): your consent. If you are in the European Economic Area or the United Kingdom, the Game asks for it after the tutorial, and nothing is sent before you answer "Yes". You can change your choice at any time from the Game's settings menu ("···" → "Data &amp; privacy" → "Anonymous statistics"); refusing deletes statistics waiting on your device.</li>
   <li>Crash reports: our legitimate interest in keeping the Game working.</li>
   <li>Personalised advertising: your consent.</li>
 </ul>
@@ -81,9 +83,9 @@
 
 <h3 id="delete">13. How to delete your data (Worldwide Tycoon, SkyMarket Games)</h3>
 <ol>
-  <li><strong>Stop statistics:</strong> in the Game, open the "···" menu and tap "Anonymous statistics" so it shows "not shared". Statistics waiting on your device are deleted immediately and nothing more is sent.</li>
-  <li><strong>Delete your game data on the device:</strong> uninstall the Game, or go to Android Settings → Apps → Worldwide Tycoon → Storage → Clear data. Your local save and settings are deleted.</li>
-  <li><strong>Delete your cloud save:</strong> in the Google Play Games app → Settings → Delete Play Games account and data (or only Worldwide Tycoon's data), or from your Google account (Google Drive → Settings → Manage apps → Worldwide Tycoon → Delete hidden app data).</li>
+  <li><strong>Stop statistics:</strong> in the Game, open the "···" menu, then "Data &amp; privacy" (in older versions, directly in the "···" menu), and set "Anonymous statistics" to "Not shared". Statistics waiting on your device are deleted immediately and nothing more is sent.</li>
+  <li><strong>Delete your game data on the device:</strong> uninstall the Game, or go to Android Settings → Apps → Worldwide Tycoon → Storage → Clear data. On iPhone: touch and hold the Game's icon → Remove App → Delete App, or Settings → General → iPhone Storage → Worldwide Tycoon → Delete App. Your local save and settings are deleted.</li>
+  <li><strong>Delete your cloud save (Android only):</strong> in the Google Play Games app → Settings → Delete Play Games account and data (or only Worldwide Tycoon's data), or from your Google account (Google Drive → Settings → Manage apps → Worldwide Tycoon → Delete hidden app data).</li>
   <li><strong>Delete statistics already sent:</strong> email <strong>skyscraper.gamedev@protonmail.com</strong> with the subject "Delete my data – Worldwide Tycoon", the approximate dates you played and your phone model. We delete the matching statistics we hold (Firebase / Google Analytics, our analysis copies, GameAnalytics) within 30 days and confirm by email.</li>
 </ol>
 <p>What is deleted: game progress, settings, cloud save and usage statistics. What may be kept: nothing linked to you; aggregated figures without any identifier (for example "number of players per day") may be kept. Statistics we cannot match to your request are deleted automatically at the end of their retention period (section 8).</p>
@@ -100,32 +102,34 @@
 <h3>2. En bref</h3>
 <ul>
   <li>Aucun compte, aucune connexion, aucun achat intégré.</li>
-  <li>Votre progression est sauvegardée sur votre appareil et, si vous l'utilisez, dans votre compte Google Play Jeux (sauvegarde cloud).</li>
+  <li>Votre progression est sauvegardée sur votre appareil. Sur Android, si vous l'utilisez, une copie est aussi gardée dans votre compte Google Play Jeux (sauvegarde cloud). La version iOS n'a pas de sauvegarde cloud.</li>
   <li>Nous ne collectons ni votre nom, ni votre adresse e-mail, ni votre numéro de téléphone, ni vos contacts, photos ou position précise.</li>
-  <li>Le Jeu utilise GameAnalytics et Google Analytics pour Firebase pour des statistiques d'utilisation anonymes, et des services Google pour les rapports de plantage, la sauvegarde cloud et la publicité (à partir de la version 1.8). Ces services peuvent traiter des identifiants d'appareil, comme décrit ci-dessous.</li>
-  <li>Les statistiques n'utilisent jamais votre identifiant publicitaire. Seul Google AdMob l'utilise, pour afficher les annonces.</li>
+  <li>Le Jeu utilise GameAnalytics et Google Analytics pour Firebase pour des statistiques d'utilisation anonymes, des services Google pour la sauvegarde cloud (Android) et la publicité (à partir de la version 1.8), et Google (Android) ou Apple (iOS) pour les rapports de plantage. Ces services peuvent traiter des identifiants d'appareil, comme décrit ci-dessous.</li>
+  <li>Les statistiques n'utilisent jamais votre identifiant publicitaire (Android) ni votre IDFA (iOS). Seul Google AdMob peut l'utiliser, pour afficher les annonces, et sur iOS seulement si vous autorisez le suivi.</li>
 </ul>
 
 <h3>3. Données enregistrées sur votre appareil</h3>
-<p>Votre progression et vos réglages (langue, son) sont enregistrés dans des fichiers locaux sur votre appareil. Ils ne nous sont pas envoyés. Désinstaller le Jeu ou effacer ses données les supprime. Si vous utilisez la sauvegarde cloud, une copie de votre progression est aussi enregistrée dans votre compte Google Play Jeux (données d'application Google Drive, invisibles pour nous) ; vous pouvez la supprimer depuis votre compte Google.</p>
+<p>Votre progression et vos réglages (langue, son) sont enregistrés dans des fichiers locaux sur votre appareil. Ils ne nous sont pas envoyés. Désinstaller le Jeu ou effacer ses données les supprime. Si vous utilisez la sauvegarde cloud, une copie de votre progression est aussi enregistrée dans votre compte Google Play Jeux (données d'application Google Drive, invisibles pour nous) ; vous pouvez la supprimer depuis votre compte Google. Sur iOS, il n'y a pas de sauvegarde cloud : supprimer le Jeu supprime votre progression.</p>
 
 <h3>4. Données traitées par des services tiers</h3>
 <div class="wrap"><table>
   <tr><th>Service</th><th>Finalité</th><th>Données</th></tr>
   <tr><td>GameAnalytics (GameAnalytics ApS, Danemark)</td><td>Comprendre comment le Jeu est joué pour améliorer l'équilibrage et corriger les problèmes</td><td>Identifiant aléatoire du jeu, modèle d'appareil et système, sessions, progression dans le jeu, publicités vues</td></tr>
   <tr><td>Google Analytics pour Firebase (Google LLC / Google Ireland Ltd) – à partir de la version 1.7</td><td>Comprendre comment le Jeu est joué (fidélisation, progression, fonctions utilisées, moment où les joueurs arrêtent) pour l'améliorer</td><td>Identifiant aléatoire du jeu et identifiant d'instance de l'appli, modèle d'appareil, système et langue, version du jeu, position approximative (pays/région, déduite de l'adresse IP, qui n'est pas conservée), sessions et temps de jeu, actions dans le jeu (écrans ouverts, achats en argent du jeu, événements, faillites), publicités vues (endroit du Jeu, durée à l'écran, regardée jusqu'au bout ou touchée, revenu estimé par AdMob)</td></tr>
-  <tr><td>Services Google Play Jeux</td><td>Sauvegarde cloud de votre progression (facultative)</td><td>Identifiant de votre profil Play Jeux et votre sauvegarde</td></tr>
-  <tr><td>Google Play Console (Android vitals)</td><td>Rapports de plantage et de blocage</td><td>Modèle d'appareil, version du système, données techniques du plantage</td></tr>
-  <tr><td>Google AdMob et User Messaging Platform (Google LLC / Google Ireland Ltd) – à partir de la version 1.8</td><td>Afficher des publicités (récompensées facultatives et, de temps en temps, une annonce plein écran), les mesurer, et recueillir votre consentement lorsque la loi l'exige</td><td>Identifiant publicitaire, adresse IP, informations sur l'appareil, interactions avec les annonces, choix de consentement</td></tr>
+  <tr><td>Services Google Play Jeux (Android uniquement)</td><td>Sauvegarde cloud de votre progression (facultative)</td><td>Identifiant de votre profil Play Jeux et votre sauvegarde</td></tr>
+  <tr><td>Google Play Console (Android vitals)</td><td>Rapports de plantage et de blocage (Android)</td><td>Modèle d'appareil, version du système, données techniques du plantage</td></tr>
+  <tr><td>Apple App Store Connect et TestFlight</td><td>Rapports de plantage et retours de bêta (iOS), seulement si vous partagez les analyses avec les développeurs dans les réglages de l'iPhone ou envoyez un retour depuis TestFlight</td><td>Modèle d'appareil, version d'iOS, données techniques du plantage, retours que vous choisissez d'envoyer</td></tr>
+  <tr><td>Google AdMob et User Messaging Platform (Google LLC / Google Ireland Ltd) – à partir de la version 1.8</td><td>Afficher des publicités (récompensées facultatives et, de temps en temps, une annonce plein écran), les mesurer, et recueillir votre consentement lorsque la loi l'exige</td><td>Identifiant publicitaire (Android) ou IDFA (iOS, seulement si vous autorisez le suivi), adresse IP, informations sur l'appareil, interactions avec les annonces, choix de consentement</td></tr>
 </table></div>
 <p>GameAnalytics agit selon ses propres conditions : <a href="https://gameanalytics.com/privacy">politique de confidentialité de GameAnalytics</a>. Pour Firebase, voir <a href="https://firebase.google.com/support/privacy?hl=fr">Confidentialité et sécurité dans Firebase</a> ; Google peut traiter ces données hors de l'Union européenne dans le cadre des clauses contractuelles types de la Commission européenne. Google Play et AdMob sont fournis par Google LLC / Google Ireland Ltd : <a href="https://policies.google.com/privacy?hl=fr">Règles de confidentialité de Google</a> et <a href="https://policies.google.com/technologies/partner-sites?hl=fr">Utilisation des informations des applis partenaires par Google</a>.</p>
 
 <h3>5. Publicité et consentement</h3>
 <p>À partir de la version 1.8, le Jeu affiche deux sortes d'annonces. Les annonces récompensées sont facultatives : vous choisissez d'en regarder une contre un bonus dans le Jeu (nouveaux candidats, gains hors ligne, fin de grève, annulation d'un impôt, placements). Une annonce plein écran peut aussi apparaître après l'avis d'impôt de fin d'exercice, au plus une fois toutes les 9 minutes de jeu, et se ferme au bout de quelques secondes. Si vous êtes dans l'Espace économique européen, au Royaume-Uni ou en Suisse, un écran de consentement (Google User Messaging Platform) vous demande si vous acceptez les annonces personnalisées. Vous pouvez refuser : vous ne verrez alors que des annonces non personnalisées. Vous pouvez modifier votre choix à tout moment depuis le menu des réglages du Jeu (« Confidentialité des publicités »). Vous pouvez aussi réinitialiser ou supprimer votre identifiant publicitaire dans les paramètres d'Android.</p>
+<p><strong>Sur iOS</strong>, le Jeu n'utilise l'identifiant publicitaire de votre appareil (IDFA) que si vous l'autorisez dans la fenêtre « Transparence du suivi des apps » d'Apple. Si vous refusez, ou si aucune fenêtre n'apparaît, l'IDFA n'est pas utilisé : vous pouvez voir des annonces, mais elles ne sont pas personnalisées grâce à lui. SKAdNetwork d'Apple peut mesurer les résultats des annonces sans vous identifier. Vous pouvez changer ce choix à tout moment dans Réglages de l'iPhone → Confidentialité et sécurité → Suivi.</p>
 
 <h3>6. Bases légales et consentement aux statistiques (EEE / Royaume-Uni)</h3>
 <ul>
-  <li>Statistiques d'utilisation (GameAnalytics et Google Analytics pour Firebase) : votre consentement. Si vous êtes dans l'Espace économique européen ou au Royaume-Uni, le Jeu vous le demande après le tutoriel, et rien n'est envoyé avant votre « Oui ». Vous pouvez modifier votre choix à tout moment depuis le menu des réglages du Jeu (« Statistiques anonymes ») ; un refus efface les statistiques en attente sur votre appareil.</li>
+  <li>Statistiques d'utilisation (GameAnalytics et Google Analytics pour Firebase) : votre consentement. Si vous êtes dans l'Espace économique européen ou au Royaume-Uni, le Jeu vous le demande après le tutoriel, et rien n'est envoyé avant votre « Oui ». Vous pouvez modifier votre choix à tout moment depuis le menu des réglages du Jeu (« ··· » → « Données et confidentialité » → « Statistiques anonymes ») ; un refus efface les statistiques en attente sur votre appareil.</li>
   <li>Rapports de plantage : notre intérêt légitime à faire fonctionner le Jeu.</li>
   <li>Publicité personnalisée : votre consentement.</li>
 </ul>
@@ -150,9 +154,9 @@
 
 <h3 id="supprimer">13. Comment supprimer vos données (Worldwide Tycoon, SkyMarket Games)</h3>
 <ol>
-  <li><strong>Arrêter les statistiques :</strong> dans le Jeu, ouvrez le menu « ··· » et touchez « Statistiques anonymes » pour afficher « non partagées ». Les statistiques en attente sur votre appareil sont effacées aussitôt et plus rien n'est envoyé.</li>
-  <li><strong>Supprimer les données du jeu sur l'appareil :</strong> désinstallez le Jeu, ou allez dans Paramètres Android → Applications → Worldwide Tycoon → Stockage → Effacer les données. Votre sauvegarde locale et vos réglages sont supprimés.</li>
-  <li><strong>Supprimer la sauvegarde cloud :</strong> dans l'appli Google Play Jeux → Paramètres → Supprimer le compte et les données Play Jeux (ou seulement les données de Worldwide Tycoon), ou depuis votre compte Google (Google Drive → Paramètres → Gérer les applications → Worldwide Tycoon → Supprimer les données d'application masquées).</li>
+  <li><strong>Arrêter les statistiques :</strong> dans le Jeu, ouvrez le menu « ··· », puis « Données et confidentialité » (dans les versions plus anciennes, directement dans le menu « ··· »), et réglez « Statistiques anonymes » sur « Non partagées ». Les statistiques en attente sur votre appareil sont effacées aussitôt et plus rien n'est envoyé.</li>
+  <li><strong>Supprimer les données du jeu sur l'appareil :</strong> désinstallez le Jeu, ou allez dans Paramètres Android → Applications → Worldwide Tycoon → Stockage → Effacer les données. Sur iPhone : maintenez l'icône du Jeu → Supprimer l'app → Supprimer l'app, ou Réglages → Général → Stockage iPhone → Worldwide Tycoon → Supprimer l'app. Votre sauvegarde locale et vos réglages sont supprimés.</li>
+  <li><strong>Supprimer la sauvegarde cloud (Android uniquement) :</strong> dans l'appli Google Play Jeux → Paramètres → Supprimer le compte et les données Play Jeux (ou seulement les données de Worldwide Tycoon), ou depuis votre compte Google (Google Drive → Paramètres → Gérer les applications → Worldwide Tycoon → Supprimer les données d'application masquées).</li>
   <li><strong>Supprimer les statistiques déjà envoyées :</strong> écrivez à <strong>skyscraper.gamedev@protonmail.com</strong> avec l'objet « Supprimer mes données – Worldwide Tycoon », les dates approximatives où vous avez joué et le modèle de votre téléphone. Nous supprimons les statistiques correspondantes que nous détenons (Firebase / Google Analytics, nos copies d'analyse, GameAnalytics) sous 30 jours et vous le confirmons par e-mail.</li>
 </ol>
 <p>Ce qui est supprimé : progression, réglages, sauvegarde cloud et statistiques d'utilisation. Ce qui peut être conservé : rien qui soit lié à vous ; des chiffres agrégés sans identifiant (par exemple « nombre de joueurs par jour ») peuvent être conservés. Les statistiques que nous ne pouvons pas rattacher à votre demande sont supprimées automatiquement à la fin de leur durée de conservation (section 8).</p>
